@@ -1,5 +1,10 @@
 # My-App
 
+Script
+
+npm start
+
+
 Video_Bucket
 
 
