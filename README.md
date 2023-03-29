@@ -83,7 +83,4 @@ Video_Bucket
 played i.e the card name, the link and the time it was played
 
 
-![image](https://user-images.githubusercontent.com/103898041/227787767-9c5d0989-b4bf-4ad8-aecb-1481d7ed6884.png)
-
-![image](https://user-images.githubusercontent.com/103898041/227787780-1750fae8-581e-4539-9b61-eee759983fd6.png)
 
