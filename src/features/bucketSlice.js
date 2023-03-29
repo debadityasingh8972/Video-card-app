@@ -14,12 +14,12 @@ const initialState = {
                 },
                 {
                     id: nanoid(),
-                    title: "card10",
+                    title: "card2",
                     link: "https://youtube.com/embed/IkAKzmSHufw"
                 },
                 {
                     id: nanoid(),
-                    title: "card100",
+                    title: "card3",
                     link: "https://youtube.com/embed/a7TJzv_1icU"
                 },
 

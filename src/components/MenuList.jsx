@@ -54,7 +54,7 @@ export default function PositionedMenu({ moveCardTo, moveCardFrom}) {
               handleClose();
               moveCardFrom();
               moveCardTo(index);
-           }}>{bucket.name}</MenuItem>
+            }}>{bucket.name}</MenuItem>
           })
         }
       </Menu>

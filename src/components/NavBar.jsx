@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../assets/logo.svg'
+import Sharingan from '../assets/Sharingan.svg'
 import {AppBar, Box, IconButton, Toolbar} from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { selectToggler, toggleDrawer } from '../features/toggleSlice.js';
@@ -27,7 +28,7 @@ const NavBar = () => {
           <MenuIcon />
         </IconButton>
         <Box sx={{ p: '0.5rem'}}>
-          <img src={Logo} style={{ height:"2.5rem", width: "2.5rem",backgroundColor:"white"}} alt="logo"/>
+          <img src={Sharingan} style={{ height:"2.5rem", width: "2.5rem",backgroundColor:"white"}} alt="logo"/>
         </Box>
         <Toolbar sx={{ px: '1rem', width: '100%' }}>
           <Link to="/" style={{ color: 'inherit', padding: '0.5rem', textDecoration:"none" }}>Home</Link>

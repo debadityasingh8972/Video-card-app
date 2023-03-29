@@ -22,7 +22,6 @@ const historySlice = createSlice({
                 }
                 state.history.unshift(newObj)
             },
-           
         },
         deleteFromHistory: {
             reducer(state, action){

@@ -25,11 +25,11 @@ const Cards = ({cards, bucketIndex, rerenderOnce}) => {
     <Box sx={{ position: 'relative', flexGrow: 1, p: '0.5rem', display: 'flex', flexDirection: 'column' }}>
       <Grid sx={{ height: '100%' ,mt: '0.5rem', p: '1rem', alignContent: 'start' }} container rowSpacing={3} columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
         {
-           cards.map((card, index)=>{
-                return (
-                    <Card cardId={card.id} rerenderOnce={rerenderOnce} key={card.id} title={card.title} link={card.link} cardIndex={index} bucketIndex={bucketIndex} setModal={setComponent}  />
-                )
-           })
+            cards.map((card, index)=>{
+                  return (
+                      <Card cardId={card.id} rerenderOnce={rerenderOnce} key={card.id} title={card.title} link={card.link} cardIndex={index} bucketIndex={bucketIndex} setModal={setComponent}  />
+                  )
+            })
         }
       </Grid>
       {/* <Modal onClose={() => {}} open={true} content={<VideoPlayer />} action={() => {}} actionText="Submit" /> */}
